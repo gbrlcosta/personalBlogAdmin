@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $artigo->adicionar($_POST['titulo'], $_POST['conteudo']);
 
 
-    redireciona('http://localhost/blog/admin/index.php') 
+    redireciona('http://localhost/blog/admin/index.php'); 
 
 }
 
